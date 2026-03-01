@@ -73,6 +73,9 @@ on:
         type: string
         default: 'sony_imx327'
 
+permissions:
+  contents: read
+
 jobs:
   build:
     runs-on: ubuntu-22.04
